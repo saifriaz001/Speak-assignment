@@ -95,13 +95,10 @@ Each section is modularized for scalability and clarity, ensuring consistent spa
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/SDE-UI.git
-
-# Navigate to folder
-cd SDE-UI
+git clone https://github.com/saifriaz001/Speak-assignment.git
 
 # Install dependencies
 npm install
 
 # Start development server
-npm run de
+npm run dev

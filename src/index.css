@@ -18,7 +18,7 @@
 
 /* 1514 × 797 frame that shrinks responsively, keeps ratio */
 .frame-1514x797{
-  width: max(var(--card-w), 100%);
+  width: (var(--card-w), 100%);
   aspect-ratio: 1514 / 797;
   max-height: var(--card-h);
   margin-inline: auto;
@@ -35,13 +35,13 @@
 html,body,#root{height:100%}
 body{@apply  text-gray-900 antialiased bg-white}
 
-/* .container-page{max-width:var(--container); margin-inline:auto; @apply border rounded-3xl px-4 sm:px-6 lg:px-8}
+.container-page{max-width:var(--container); margin-inline:auto; @apply border rounded-3xl px-4 sm:px-6 lg:px-8}
 
 /* typographic scale — tweak to match */
 .h1{@apply  font-semibold leading-tight text-4xl md:text-5xl}
 .h2{@apply  font-semibold leading-snug text-3xl md:text-4xl}
 .h3{@apply  font-semibold text-2xl}
-.p{@apply text-base leading-relaxed text-gray-600} */
+.p{@apply text-base leading-relaxed text-gray-600}
 
 /* soft entry */
 .fade-in{animation:fade .45s ease both}
