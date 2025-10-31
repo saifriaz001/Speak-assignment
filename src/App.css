@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+:root { --container: 1200px; } /* adjust to match video */
+html,body,#root{height:100%}
+body{@apply font-body text-gray-900 antialiased bg-white}
+
+.container-page{max-width:var(--container); margin-inline:auto; @apply px-4 sm:px-6 lg:px-8}
+
+/* typographic scale — tweak to match */
+.h1{@apply font-display font-semibold leading-tight text-4xl md:text-5xl}
+.h2{@apply font-display font-semibold leading-snug text-3xl md:text-4xl}
+.h3{@apply font-display font-semibold text-2xl}
+.p{@apply text-base leading-relaxed text-gray-600}
+
+/* soft entry */
+.fade-in{animation:fade .45s ease both}
+@keyframes fade{from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none}}
