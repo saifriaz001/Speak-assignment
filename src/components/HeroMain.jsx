@@ -17,8 +17,6 @@ export default function Hero() {
           <span className="block font-heading">best language</span>
           <span className="block font-heading">teacher.</span>
         </h1>
-
-        {/* Subcopy */}
         <p
           className="
             mt-6 md:mt-7 max-w-[46rem] text-base sm:text-lg md:text-xl
@@ -29,15 +27,6 @@ export default function Hero() {
           24/7. It may surprise you with all of its unique abilities.
         </p>
       </div>
-
-      {/* Soft bottom fade like in your screenshot */}
-      <div
-        aria-hidden
-        className="
-          pointer-events-none absolute inset-x-0 bottom-0 h-28
-          bg-gradient-to-b from-transparent to-black/5
-        "
-      />
     </section>
   );
 }
